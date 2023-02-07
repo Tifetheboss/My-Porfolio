@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tailwind/output.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="bg-floor">
+
+        <nav id="navbar"
+            class="shadow-2xl shadow-grey py-4 flex  items-center justify-between text-primary w-11/12 m-auto ">
+            <h1 class="text-4xl font-bold text-secondary pl-4 pr-20">
+                T
+            </h1>
+            <ul class="w-2/5  text-xl flex space-x-20 max-lg:hidden">
+                <li class="hover:text-secondary hover:ease-in-out hover:duration-500"> <a href="/#home">Home</a>
+                </li>
+                <li class="hover:text-secondary  hover:ease-in-out hover:duration-500"><a href="#projects">Projects</a>
+                </li>
+                <li class="hover:text-secondary hover:ease-in-out hover:duration-500"> <a href="/#About">About</a>
+                </li>
+                <li class="hover:text-secondary hover:ease-in-out hover:duration-500"> <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <a download href="./img/CV_2023020517373745.pdf"> <button id="btn"
+                    class="text-center text-xl text-secondary hover:bg-secondary hover:text-primary hover:ease-in-out hover:duration-500 border-secondary mr-4 px-5  max-lg:hidden">
+                    Download <br> Resume </button></a>
+
+            <nav class="lg:hidden">
+                <div class="hamb">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <span class="nav2">
+                    <ul id="tags" class="text-xl flex flex-col">
+                        <li> <a href="/#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li> <a href="/#About">About</a></li>
+                        <li> <a href="#contact">Contact</a></li>
+
+                    </ul>
+                </span>
+            </nav>
+        </nav>
+
+        <main id="home">
+            <section id="height" class="w-11/12 m-auto flex justify-between items-center ">
+                <span id="circle"><img class="max-lg:hidden" src="./img/Ellipse 3.png" alt="circle"></span>
+                <span id="circle2"><img class="max-lg:hidden" src="./img/Frame 2.png" alt="circle2"></span>
+                <div class="w-full m-auto flex justify-between items-center ">
+                    <div
+                        class="flex items-center justify-around z-10 lg:w-1/2 max-lg:w-10/12 max-lg:grid max-lg:m-auto max-lg:text-center">
+                        <div class="line">
+                            <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50"
+                                data-aos-easing="ease-in" class="pl- max-lg:hidden" src="./img/Rectangle.png"
+                                alt="vertical-line">
+                        </div>
+                        <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in">
+                            <span class=" max-[320px]:text-2xl max-[505px]:text-5xl text-7xl font-bold text-primary">
+                                <p><span class="inputs"></span></p>
+                                <p>I'm <span class="text-secondary">Tife</span>,</p>
+                                <p>Web developer.</p>
+                            </span>
+                            <p class="text-xl text-iconbg my-7">Front-end developer</p>
+                            <button id="btn" data-aos="fade-up-left" data-aos-duration="1150" data-aos-delay="50"
+                                data-aos-easing="ease-in"
+                                class="text-xl text-secondary hover:bg-secondary hover:text-primary  hover:duration-500 hover:ease-in-out  border-secondary px-12 py-3 max-lg:hidden"><a
+                                    href="/#form"> Hire me ! </a></button>
+                            <a download href="./img/CV_2023020517373745.pdf"> <button id="btn" data-aos="fade-up-left"
+                                    data-aos-duration="1150" data-aos-delay="50" data-aos-easing="ease-in"
+                                    class=" text-xl text-secondary hover:bg-secondary hover:text-primary hover:ease-in-out hover:duration-500 border-secondary px-12 py-3  lg:hidden">
+                                    Download CV </button> </a>
+                        </span>
+                    </div>
+                    <div id="arrow" class="w-1/2 grid place-content-end max-lg:hidden">
+                        <img src="./img/Icon arrow.png" alt="arrow-icon">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <main id="projects">
+            <section class="text-primary text-xl w-11/12 m-auto py-40">
+                <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in"
+                    class="text-secondary text-4xl text-center font-bold mb-20"> Projects</p>
+                <div class="projects2 ">
+                    <input type="checkbox" id="check">
+                    <div id="luxoya" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50"
+                        data-aos-easing="ease-in" class="flex text-center items-center"><img id="luxoya_project"
+                            class="projects" src="./img/luxoya_home_page.jpg" alt="luxoya pic">
+                        <span id="abt-project" class="w-1/2">
+                            <P class="text-2xl font-bold text-secondary ">Skills Used</P>
+                            <span class="flex justify-around items-center">
+                                <p> Tailwind </p>
+                                <p> PHP </p>
+                                <p> Javascript </p>
+                            </span>
+                            <SPan>
+                                <p class="text-2xl font-bold text-secondary">Luxoya(Collaborative project)</p>
+                                <p>Luxoya-ecommerce-website is a new fashion e-commerce platform that offers a curated
+                                    selection of the latest fashion clothing and accessories. Our platform combines an
+                                    easy-to-use website with expert styling advice, making it easy for customers to find
+                                    and purchase the latest fashion trends.</p>
+                            </SPan>
+                            <span class="flex justify-around items-center">
+                                <a href="https://luxoya.netlify.app/"><button id="btn"
+                                        class=" text-xl text-secondary hover:bg-secondary hover:text-primary hover:ease-in-out hover:duration-500 border-secondary px-5 py-1 ">
+                                        View Project </button></a>
+                                <a href="https://github.com/Tifetheboss/Interactive-atm-card"> <button id="btn"
+                                        class=" text-xl text-secondary hover:bg-secondary hover:text-primary hover:ease-in-out hover:duration-500 border-secondary px-5 py-1  ">
+                                        View Code </button></a> </span>
+                    </div>
+                    <div class="show-more">
+                        <div id="atm" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50"
+                            data-aos-easing="ease-in" class="flex text-center items-center max-[768px]:flex-col">
+                            <img id="atm_project" class="projects"
+                                src="./img/Web capture_24-1-2023_195557_127.0.0.1.jpeg" alt="atm project">
+                            <div>
+                                <span class="w-1/2" id="abt-project">
+                                    <P class="text-2xl font-bold text-secondary ">Skills Used</P>
+                                    <span class="flex justify-around items-center mt-5">
+                                        <p> HTML </p>
+                                        <p> CSS </p>
+                                        <p> Javascript </p>
+                                    </span>
+                                    <span>
+                                        <p class="text-2xl font-bold text-secondary">Interactive Card</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui consequatur
+                                            quaerat illo facere eaque, rerum odio molestiae quae velit accusantium! </p>
+                                    </span>
+                                    <span class="flex justify-around items-center">
+                                        <a href="https://interactive-atm-bankcard.netlify.app/">
+                                            <button id="btn"
+                                                class=" text-xl text-secondary hover:bg-secondary hover:text-primary hover:ease-in-out hover:duration-500 border-secondary px-5 py-1 ">
+                                                View Project </button>
+                                        </a>
+                                        <a href="https://github.com/Tifetheboss/Interactive-atm-card"> <button id="btn"
+                                                class=" text-xl text-secondary hover:bg-secondary hover:text-primary hover:ease-in-out hover:duration-500 border-secondary px-5 py-1  ">
+                                                View Code </button>
+                                        </a>
+                                    </span>
+                            </div>
+                        </div>
+                        </span>
+                    </div>
+                </div>
+                <label id="label" for="check"
+                    class=" text-xl text-secondary hover:bg-secondary hover:text-primary hover:ease-in-out hover:duration-500 px-5 py-3 ">
+                    Show More </label>
+            </section>
+        </main>
+
+        <main id="About" class="bg-abtbg text-primary py-40 text-xl">
+            <section class=" w-10/12 m-auto">
+                <p data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in"
+                    class="text-secondary text-4xl text-center font-bold mb-20">About Me</p>
+                <div class="flex justify-around items-center max-[1024px]:flex-col"> <span data-aos="fade-right"
+                        data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in">
+                        <span class="text-center ">
+                            <img id="img" src="./dist/IMG_4130.jpg" alt="my pic">
+                            <p class="mt-8 text-xl font-bold">Boluwatife Akindele</p>
+                            <span class="flex justify-around items-center mt-3 ">
+
+                                <a href=""> <img class="h-8 w-8" src="./img/Vector (5).png" alt="instagram"> </a>
+                                <a href="https://github.com/Tifetheboss"> <img class="h-8 w-8"
+                                        src="./img/Vector (6).png" alt="github"></a>
+                                <a href="https://www.linkedin.com/in/boluwatife-akindele-ab5829251/"> <img
+                                        class="h-8 w-8" src="./img/Vector (7).png" alt="Linkedin"></a>
+                                <a href="https://twitter.com/Tife_999"><img class="h-8 w-8" src="./img/Vector (8).png"
+                                        alt="twitter"></a>
+
+                                <a href="https://www.upwork.com/freelancers/~01e476ca7cce1e6c34"> <img class="h-10 w-10"
+                                        src="./img/icons8-upwork-50.png" alt="upwork"></a></span>
+                        </span>
+                    </span>
+                    <span data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in"><img
+                            class="h-80 w-1 max-[1024px]:hidden" src="./img/Rectangle.png" alt="line"></span>
+                    <span data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in"
+                        class="w-2/4 max-[1024px]:mt-10 text-center max-[1024px]:w-10/12 ">
+                        <p class="mb-7">I'm Tife, a self-taught web developer and freelancer in Nigeria, I'm <span
+                                class="text-secondary text-xl font-bold ">1year</span> into my programming journey.If
+                            you need a front-end developer or need a website/landing-page built, get in touch! </p>
+                        <button id="btn" data-aos="fade-up-left" data-aos-duration="1150" data-aos-delay="50"
+                            data-aos-easing="ease-in"
+                            class="text-xl text-secondary hover:bg-secondary hover:text-primary  hover:duration-500 hover:ease-in-out border-secondary px-12 py-3 "><a
+                                href="/#contact"> Contact </a></button>
+                    </span>
+                    </span>
+                </div>
+            </section>
+        </main>
+
+        <main id="Skills" class=" py-40">
+            <span class="w-11/12 m-auto ">
+                <p data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in"
+                    class="text-secondary text-4xl text-center font-bold mb-20">Skill-Set</p>
+
+                <div class="flex justify-around items-center max-[600px]:flex-col"><span><img id="logo"
+                            data-aos="flip-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in"
+                            src="./dist/image-removebg-preview (5) 1.png" alt="html logo">
+                        <p class="text-center text-iconbg font-bold text-xl mt-3">HTML5</p>
+                    </span>
+                    <span><img id="logo" data-aos="flip-up" data-aos-duration="1300" data-aos-delay="50"
+                            data-aos-easing="ease-in" src="./dist/icons8-css3-150.png" alt="css">
+                        <P class="text-center text-iconbg font-bold text-xl mt-3">CSS3</P>
+                    </span>
+                    <span><img id="logo" data-aos="flip-up" data-aos-duration="1600" data-aos-delay="50"
+                            data-aos-easing="ease-in" src="./dist/ion_logo-sass.png" alt="sass">
+                        <p class="text-center text-iconbg font-bold text-xl mt-3">Sass</p>
+                    </span>
+                </div>
+                <div class="flex  justify-around items-center max-[600px]:flex-col"> <Span><img id="logo"
+                            data-aos="flip-down" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in"
+                            src="./dist/Vector (9).png" alt="tailwindcss">
+                        <p class="text-center text-iconbg font-bold text-xl mt-3">Tailwind</p>
+                    </Span>
+                    <span><img id="logo" data-aos="flip-down" data-aos-duration="1300" data-aos-delay="50"
+                            data-aos-easing="ease-in" src="./dist/tabler_brand-javascript.png" alt="javascript">
+                        <p class="text-center text-iconbg font-bold text-xl mt-3">Javascript</p>
+                    </span>
+
+                    <span><img id="logo" data-aos="flip-down" data-aos-duration="1600" data-aos-delay="50"
+                            data-aos-easing="ease-in" src="./dist/Group.png" alt="bootstrap">
+                        <p class="text-center text-iconbg font-bold text-xl mt-3">Bootstrap</p>
+                    </span>
+                </div>
+            </span>
+        </main>
+
+        <main id="contact" class="w-11/12 m-auto text-primary py-40 text-xl">
+            <p data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in"
+                class="text-center text-4xl font-bold text-secondary mb-20">Get In Touch</p>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in"
+                class=" text-center flex justify-around items-center max-md:grid">
+                <span><img class="mt-8 m-auto" src="./dist/Vector (10).png" alt="location">
+                    <p class="mt-2">Address</p>
+                    <p class=" text-iconbg">Lagos, Nigeria.</p>
+                </span><span><img class="m-auto mt-8" src="./dist/Combined-Shape.png" alt="phone">
+                    <p class="mt-2">Phone</p>
+                    <p class="text-iconbg">+2347016622012</p>
+                </span><span><img class="mt-8 m-auto" src="./dist/Message.png" alt="email">
+                    <p class=" mt-2 ">Email</p>
+                    <p class="text-iconbg">boluakindele12@gmail.com</p>
+                </span>
+            </div>
+
+            <div class="flex justify-between items-center w-full  ">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in"
+                    class="w-1/3 grid gap-7 max-[1024px]:hidden">
+                    <p class="font-bold text-3xl mt-20 mb-7">Let's Connect</p>
+                    <a href="">
+                        <p class="flex items-center"><span class="border-2 rounded-full p-3 mr-7"><img id="icons"
+                                    src="./img/Vector (5).png" alt="instagram"></span>Instagram</p>
+                    </a>
+
+                    <a href="https://github.com/Tifetheboss">
+                        <p class="flex items-center"><span class="border-2 rounded-full p-3 mr-7"><img id="icons"
+                                    src="./img/Vector (6).png" alt="github"></span>Github</p></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/boluwatife-akindele-ab5829251/">
+                        <p class="flex items-center"><span class="border-2 rounded-full p-3 mr-7"><img id="icons"
+                                    src="./img/Vector (7).png" alt="linkedIn"></span>LinkedIn</p></span>
+                    </a>
+                    <a href="https://twitter.com/Tife_999">
+                        <p class="flex items-center"><span class="border-2 rounded-full p-3 mr-7"><img id="icons"
+                                    src="./img/Vector (8).png" alt="twitter"></span>Twitter</p></span>
+                    </a>
+                    <a href="https://www.upwork.com/freelancers/~01e476ca7cce1e6c34">
+                        <p class="flex  items-center "><span class="border-2 rounded-full p-3 mr-7"><img id="icons"
+                                    src="./img/icons8-upwork-50.png" alt="upwork"></span>Upwork</p></span>
+                    </a>
+                </div>
+
+                <form data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in"
+                    id="form" class="form" action="https://formsubmit.co/boluakindele12@gmail.com" method="GET">
+                    <span class=" w-full m-auto ">
+                        <p class="font-bold text-center text-3xl mt-20 mb-7">Send Me A Message</p>
+                        <div class="control">
+                            <label for="Name">Name*</label> <br>
+                            <input
+                                class="outline-none w-full pl-3 py-1 mt-2 hover:border-secondary hover:duration-500 bg-floor"
+                                type="text" name="Name" id="Name" placeholder="Your Name">
+                            <small>Error message</small>
+                        </div>
+                        <div class="control">
+                            <label for="email">Email*</label><br>
+                            <input
+                                class="outline-none w-full pl-3 py-1 mt-2 hover:border-secondary hover:duration-500 bg-floor"
+                                type="email" name="email" id="email" placeholder="Example@gmail.com">
+                            <small>Error message</small>
+                        </div>
+                        <div class="control">
+                            <label for="subject">Subject*</label> <br> <input
+                                class="outline-none w-full  pl-3 py-1  mt-2 hover:border-secondary hover:duration-500 bg-floor"
+                                type="text" name="subject" id="subject" placeholder="Subject">
+                            <small>Error message</small>
+                        </div>
+
+                        <div class="control">
+                            <label for="message">Message*</label><br>
+                            <textarea
+                                class="outline-none w-full  pl-3 py-1 mt-2 hover:border-secondary hover:duration-500 bg-floor"
+                                name="message" id="msg" cols="87" rows="7" placeholder="Enter your message"></textarea>
+                            <small>Error message</small>
+                        </div>
+
+                    </span>
+                    <button id="btn" data-aos="fade-up-left" data-aos-duration="1150" data-aos-delay="50"
+                        data-aos-easing="ease-in" type="submit"
+                        class=" max-md:w-full float-right text-xl text-secondary hover:bg-secondary hover:text-primary  border-secondary hover:ease-in-out hover:duration-500 px-20 py-3">
+                        Send a message</button>
+                </form>
+            </div>
+        </main>
+
+        <footer class="w-11/12 m-auto">
+            <span class=" lg:hidden max-lg:flex justify-around items-center mb-2">
+                <a href=""> <img class="h-8 w-8" src="./img/Vector (5).png" alt="instagram"></a>
+                <a href="https://github.com/Tifetheboss"> <img class="h-8 w-8" src="./img/Vector (6).png"
+                        alt="github"></a>
+                <a href="https://www.linkedin.com/in/boluwatife-akindele-ab5829251/"> <img class="h-8 w-8"
+                        src="./img/Vector (7).png" alt="Linkedin"></a>
+
+                <a href="https://twitter.com/Tife_999"> <img class="h-8 w-8" src="./img/Vector (8).png"
+                        alt="twitter"></a>
+
+                <a href="https://www.upwork.com/freelancers/~01e476ca7cce1e6c34"> <img class="h-10 w-10"
+                        src="./img/icons8-upwork-50.png" alt="upwork"></a>
+            </span>
+            <p class=" text-xl text-primary flex justify-center items-center text-center py-4 ">&copy;2023 Tife - All
+                Rights
+                Reserved.
+            </p>
+        </footer>
+
+    </div>
+
+    <script defer src="main.js">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".inputs", {
+            strings: ["Hello!", "Hola!", "Ciao!", "Bonjour!", "Konnichi Wa!"],
+            typeSpeed: 80,
+            backSpeed: 60,
+            loop: true
+        })
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

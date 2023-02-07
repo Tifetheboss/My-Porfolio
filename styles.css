@@ -1,0 +1,277 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#img {
+  width: 280px;
+  height: 140px;
+  clip-path: circle();
+}
+
+
+#logo {
+  box-shadow: 3px 6px 6px 3px rgb(8, 8, 8);
+  padding: 10px;
+  width: 150px;
+  border-radius: 15px;
+  margin-top: 100px;
+  height: 150px;
+}
+
+#atm{
+  box-shadow: 3px 6px 6px 3px rgb(8, 8, 8);
+ padding: 20px;
+ border-radius: 15px;
+ margin-left: 100px;
+ margin-top: 100px;
+ margin-bottom: 50px;
+}
+
+#projects p{
+  margin-bottom: 10px;
+}
+
+#luxoya{
+  box-shadow: 3px 6px 6px 3px rgb(8, 8, 8);
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.projects{
+  width: 50%;
+border-radius: 15px;  
+  object-fit: contain;
+}
+
+#icons {
+  height: 35px;
+  width: 35px;
+}
+
+#btn:hover {
+  box-shadow: 3px 6px 6px 3px rgb(8, 8, 8);
+}
+
+#circle {
+  width: 92%;
+  display: grid;
+  place-content: center;
+  position: absolute;
+  mix-blend-mode: screen;
+}
+
+#height {
+  height: 100vh;
+}
+
+#circle2 {
+  mix-blend-mode:screen;
+  width: 92%;
+  position: absolute;
+  display: grid;
+  place-content: center;
+}
+
+html{
+  font-family: "Kurale", serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.control.error input {
+  border-color: #e74c3c;
+}
+
+.control.error small {
+  visibility: visible;
+}
+
+.control small {
+  visibility: hidden;
+  color: #e74c3c;
+}
+
+input,
+textarea,
+button{
+  border: 1px solid white;
+  border-radius: 4px;
+  outline: 0;
+}
+
+#nav-open{
+    cursor: pointer;
+}
+
+.hamb{
+  width: 29px;
+  height: 20px;
+  right: 1%;
+  background: transparent;
+  top: 23px;
+  position: absolute;
+  z-index: 10002;
+  cursor: pointer;
+}
+
+.hamb span{
+  display: block;
+  background-color: #fff;
+  width: 100%;
+  height: 3px;
+  transition: .4s;
+  transition-property: transform,opacity;
+}
+
+.hamb span:nth-child(2){
+  margin: 7px 0px;
+}
+
+.click{
+  top: 23px;
+}
+
+.click span{
+  position: absolute;
+  margin-top: 12px;
+}
+
+.click span:first-child{
+  transform: rotate(-40deg);
+}
+
+#navbar{
+  background: #131220;
+  position: sticky;
+  top: 0%;
+  z-index: 20000;
+}
+
+.click span:nth-child(2){
+  opacity: 0;
+  margin: 0;
+}
+
+.click span:last-child{
+  transform: rotate(40deg);
+top: 0;
+}
+
+.nav2{
+    position:absolute;
+    background-color:rgba(49, 164, 230, 0.8);
+    width: 250px;
+    height: 35vh;
+    top: 18%;
+    right: -290%;
+    border-radius: 10px;
+    z-index: 10001;  
+    display: flex;
+    justify-content: space-evenly;
+    transition: all .50s ease; 
+}
+
+.nav2.open{
+  right: 0.4%;
+}
+
+#tags {
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+  margin-top: 30px;
+  }
+
+#tags li{
+    transition: all .50s ease; 
+}
+
+#tags li:hover{
+    transform: translateY(-5px);
+    font-weight: 600;
+}
+
+#arrow{
+  position: relative;
+  top: -800px;
+  animation: drop 2s ease-in-out forwards ;
+}
+
+@keyframes drop{
+  0%{}
+  60%{transform: translateY(850px);}
+  80%{transform: translateY(750px);}
+  100%{transform: translateY(800px);}
+}
+
+.show-more{
+  display: none;
+  transition: 0.5s linear;
+}
+
+#check{
+  display: none;
+}
+
+#show-more-btn:hover{
+  box-shadow: 3px 6px 6px 3px rgb(8, 8, 8); 
+}
+
+#check:checked ~ .show-more{
+  display: block;
+}
+
+#label{
+  border: 1px solid rgba(49, 164, 230);
+cursor: pointer;
+border-radius: 4px;
+}
+
+#label:hover{
+  box-shadow: 3px 6px 6px 3px rgb(8, 8, 8); 
+}
+
+#check:checked ~ #label{
+  visibility: hidden;
+}
+
+#check:checked ~ #label:after{
+  content:"Show Less";
+  display: block;
+  visibility: visible;
+}
+
+@media screen and (max-width:900px) {
+  #atm{
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  #atm_project{
+    width: 100%;
+  }
+
+  #abt-project{
+   
+    width: 85%;
+  }
+
+  #luxoya{
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #luxoya_project{
+    width: 100%;
+  }
+
+  #abt-project{
+    width: 85%;
+    margin-top: 30px;
+  }
+}
