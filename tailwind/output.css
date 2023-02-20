@@ -664,6 +664,10 @@ video {
   margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -826,6 +830,15 @@ video {
   margin-bottom: 50px;
 }
 
+#weather-app{
+  box-shadow: 3px 6px 6px 3px rgb(8, 8, 8);
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
 #projects p{
   margin-bottom: 10px;
 }
@@ -878,7 +891,6 @@ video {
 html{
   font-family: "Kurale", serif;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 .control.error input {
@@ -966,12 +978,12 @@ button{
   width: 250px;
   height: 35vh;
   top: 18%;
-  right: -290%;
+  right: -1110.4%;
   border-radius: 10px;
   z-index: 10001;
   display: flex;
   justify-content: space-evenly;
-  transition: all .50s ease;
+  transition: all .70s ease;
 }
 
 .nav2.open{
@@ -1062,6 +1074,20 @@ button{
   }
 
   #atm_project{
+    width: 100%;
+  }
+
+  #abt-project{
+    width: 85%;
+  }
+
+  #weather-app{
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  #weather-project{
     width: 100%;
   }
 

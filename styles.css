@@ -84,11 +84,10 @@ border-radius: 15px;
   place-content: center;
 }
 
-.container{
+ html{
   font-family: "Kurale", serif;
   scroll-behavior: smooth;
-  overflow: hidden;
-}
+} 
 
 .control.error input {
   border-color: #e74c3c;
