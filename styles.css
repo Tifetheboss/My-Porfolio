@@ -84,10 +84,10 @@ border-radius: 15px;
   place-content: center;
 }
 
-html{
+.container{
   font-family: "Kurale", serif;
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .control.error input {
