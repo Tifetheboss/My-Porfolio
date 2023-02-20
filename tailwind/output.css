@@ -977,8 +977,8 @@ button{
   background-color:rgba(49, 164, 230, 0.8);
   width: 250px;
   height: 35vh;
-  top: 18%;
-  right: -1110.4%;
+  top:  -1110.4%;
+  right:0.4%;
   border-radius: 10px;
   z-index: 10001;
   display: flex;
@@ -987,7 +987,7 @@ button{
 }
 
 .nav2.open{
-  right: 0.4%;
+  top: 23%;
 }
 
 #tags {
@@ -1158,6 +1158,10 @@ button{
 
   .max-lg\:w-10\/12 {
     width: 83.333333%;
+  }
+
+  .max-lg\:overflow-hidden {
+    overflow: hidden;
   }
 
   .max-lg\:text-center {

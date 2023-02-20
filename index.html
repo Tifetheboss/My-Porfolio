@@ -57,7 +57,7 @@
             </nav>
         </nav>
 
-        <div class="overflow-hidden">
+        <div class="overflow-hidden max-lg:overflow-hidden">
         <main id="home">
             <section id="height" class="w-11/12 m-auto flex justify-between items-center ">
                 <span id="circle"><img class="max-lg:hidden" src="./img/Ellipse 3.png" alt="circle"></span>
@@ -267,8 +267,8 @@
         <main  id="contact" class="w-11/12 m-auto text-primary py-40 text-xl">
             <p data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in"
                 class="text-center text-4xl font-bold text-secondary mb-20">Get In Touch</p>
-                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in">
-            <div
+                
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in"
                 class=" text-center flex justify-around items-center max-md:grid">
                 <span><img class="mt-8 m-auto" src="./dist/Vector (10).png" alt="location">
                     <p class="mt-2">Address</p>
@@ -283,7 +283,8 @@
             </div>
 
             <div class="flex justify-between items-center w-full  ">
-                <div class="w-1/3 grid gap-7 max-[1024px]:hidden">
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in class" 
+                class="w-1/3 grid gap-7 max-[1024px]:hidden">
                     <p class="font-bold text-3xl mt-20 mb-7">Let's Connect</p>
                     <a href="">
                         <p class="flex items-center"><span class="border-2 rounded-full p-3 mr-7"><img id="icons"
@@ -308,7 +309,7 @@
                     </a>
                 </div>
 
-                <form
+                <form data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in class" 
                     id="form" class="form" action="https://formsubmit.co/boluakindele12@gmail.com" method="POST">
                     <span class=" w-full m-auto ">
                         <p class="font-bold text-center text-3xl mt-20 mb-7">Send Me A Message</p>
@@ -342,7 +343,8 @@
                         </div>
 
                     </span>
-                    <button id="btn" type="submit"
+                    <button  data-aos="fade-up-left"
+                    data-aos-duration="1150" data-aos-delay="50" data-aos-easing="ease-in" id="btn" type="submit"
                         class=" max-md:w-full float-right text-xl text-secondary hover:bg-secondary hover:text-primary  border-secondary hover:ease-in-out hover:duration-500 px-20 py-3">
                         Send a message</button>
                 </form>
