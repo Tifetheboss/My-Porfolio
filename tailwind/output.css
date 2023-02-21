@@ -1223,6 +1223,13 @@ button{
   }
 }
 
+@media (max-width: px) {
+  .max-\[px\]\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:hidden {
     display: none;
