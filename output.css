@@ -534,6 +534,10 @@ video {
   margin-right: 1rem;
 }
 
+.mr-8 {
+  margin-right: 2rem;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
@@ -1027,7 +1031,7 @@ button{
   }
 }
 
-.show-more{
+/* .show-more{
   display: none;
   transition: 0.5s linear;
 }
@@ -1037,7 +1041,7 @@ button{
 }
 
 #show-more-btn:hover{
-  box-shadow: 3px 6px 6px 3px rgb(8, 8, 8);
+  box-shadow: 3px 6px 6px 3px rgb(8, 8, 8); 
 }
 
 #check:checked ~ .show-more{
@@ -1046,12 +1050,12 @@ button{
 
 #label{
   border: 1px solid rgba(49, 164, 230);
-  cursor: pointer;
-  border-radius: 4px;
+cursor: pointer;
+border-radius: 4px;
 }
 
 #label:hover{
-  box-shadow: 3px 6px 6px 3px rgb(8, 8, 8);
+  box-shadow: 3px 6px 6px 3px rgb(8, 8, 8); 
 }
 
 #check:checked ~ #label{
@@ -1062,7 +1066,7 @@ button{
   content:"Show Less";
   display: block;
   visibility: visible;
-}
+} */
 
 @media screen and (max-width:900px) {
   #atm{
@@ -1106,6 +1110,17 @@ button{
   #abt-project{
     width: 85%;
     margin-top: 30px;
+  }
+}
+
+.fs{
+  font-size: 70px;
+  line-height:1;
+}
+
+@media screen and (max-width:610px){
+  .fs{
+    font-size: 50px;
   }
 }
 
@@ -1204,13 +1219,6 @@ button{
 @media (max-width: 600px) {
   .max-\[600px\]\:flex-col {
     flex-direction: column;
-  }
-}
-
-@media (max-width: 505px) {
-  .max-\[505px\]\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 }
 
