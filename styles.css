@@ -8,6 +8,15 @@
   clip-path: circle();
 }
 
+::-webkit-scrollbar{
+  background:#22213a ; 
+width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #31A4E6;
+  border-radius: 10px;
+}
 
 #logo {
   box-shadow: 3px 6px 6px 3px rgb(8, 8, 8);
