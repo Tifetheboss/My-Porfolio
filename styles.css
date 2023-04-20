@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#img {
-  width: 280px;
-  height: 140px;
-  clip-path: circle();
-}
-
 ::-webkit-scrollbar{
   background:#22213a ; 
 width: 15px;
@@ -318,10 +312,23 @@ border-radius: 4px;
 .fs{
   font-size: 70px; 
   line-height:1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+@media screen and (max-width:1120px) {
+  .fs{
+    font-size: 65px; 
+  }
 }
 
 @media screen and (max-width:610px){
   .fs{
     font-size: 50px;
   }
+}
+
+.abt-name {
+  letter-spacing: 0.07rem;
 }
