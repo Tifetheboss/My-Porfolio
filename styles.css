@@ -318,6 +318,10 @@ border-radius: 4px;
 }
 
 @media screen and (max-width:1120px) {
+  .abt-m{
+    margin-top: 1.3rem;
+  }
+  
   .fs{
     font-size: 65px; 
   }
@@ -332,3 +336,4 @@ border-radius: 4px;
 .abt-name {
   letter-spacing: 0.07rem;
 }
+
