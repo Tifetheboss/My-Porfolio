@@ -39,6 +39,15 @@ width: 15px;
   margin-bottom: 50px;
 }
 
+#smartsurvey-app{
+  box-shadow: 3px 6px 6px 3px rgb(8, 8, 8);
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
 #projects p{
   margin-bottom: 10px;
 }
