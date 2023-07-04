@@ -278,6 +278,16 @@ border-radius: 4px;
     width: 100%;
   }
 
+  #smartsurvey-app{
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  #smartsurvey-project{
+width: 100%;
+  }
+
   #file-downloader-project{
     width: 100%;
   }
